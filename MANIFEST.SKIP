@@ -1,0 +1,13 @@
+Algorithm-CheckDigits-
+blib
+Build$
+_build
+Makefile$
+Makefile.old
+.*.bak
+MANIFEST.SKIP
+_MTN
+.mtn-ignore
+^MYMETA.yml$
+.swp$
+^MYMETA\.json$
