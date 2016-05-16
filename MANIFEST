@@ -52,6 +52,7 @@ MANIFEST
 META.json
 META.yml
 README
+t/94-version.t
 t/checkdigits.t
 t/ecno.t
 t/esr5_ch.t

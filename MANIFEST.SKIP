@@ -11,3 +11,4 @@ _MTN
 ^MYMETA.yml$
 .swp$
 ^MYMETA\.json$
+^\.git
