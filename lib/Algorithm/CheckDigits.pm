@@ -175,6 +175,8 @@ my %methods = (
                               'Umsatzsteuer-Identifikationsnummer (IE)' ],
     'vatrn_ie'           => [ 'Algorithm::CheckDigits::M23_002',
                               'Value Added Tax number, VAT (IE)' ],
+    'tin_ie'             => [ 'Algorithm::CheckDigits::M23_002',
+                              'Tax Identification Number (IE)' ],
     'code_39'            => [ 'Algorithm::CheckDigits::M43_001',
                               'Code39, 3 of 9' ],
     'ustid_lu'           => [ 'Algorithm::CheckDigits::M89_001',
