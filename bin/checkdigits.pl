@@ -161,7 +161,7 @@ Mathias Weidner C<< mamawe@cpan.org >>
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2010, Mathias Weidner C<< mamawe@cpan.org >>.
+Copyright (c) 2010-2020, Mathias Weidner C<< mamawe@cpan.org >>.
 All rights reserved.
 
 This module is free software; you can redistribute it and/or

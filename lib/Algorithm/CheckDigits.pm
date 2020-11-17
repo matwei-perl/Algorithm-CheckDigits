@@ -669,7 +669,7 @@ Brian T. Wightman made me think about and implement the plugin interface.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2004-2013 by Mathias Weidner
+Copyright 2004-2020 by Mathias Weidner
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. See L<perlartistic>.
