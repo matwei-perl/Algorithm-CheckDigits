@@ -7,7 +7,7 @@ use Algorithm::CheckDigits;
 use Getopt::Long;
 use Pod::Usage;
 
-use version; our $VERSION = qv('v1.3.3');
+use version; our $VERSION = qv('v1.3.4');
 
 my %opt;
 
