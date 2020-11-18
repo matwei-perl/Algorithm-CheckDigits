@@ -1,14 +1,15 @@
 Algorithm-CheckDigits-
+.*.bak
 blib
-Build$
 _build
+Build$
+^\.git
 Makefile$
 Makefile.old
-.*.bak
 MANIFEST.SKIP
 _MTN
 .mtn-ignore
-^MYMETA.yml$
-.swp$
 ^MYMETA\.json$
-^\.git
+^MYMETA.yml$
+resources/FS-TIN Algorithms-Public.docx
+.swp$
