@@ -220,7 +220,7 @@
          "http://dev.perl.org/licenses/"
       ],
       "repository" : {
-         "url" : "https://github.com/matwei/perl-Algorithm-CheckDigits"
+         "url" : "https://github.com/matwei-perl/Algorithm-CheckDigits"
       }
    },
    "version" : "v1.3.5",
