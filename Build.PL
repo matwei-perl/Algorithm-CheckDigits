@@ -9,6 +9,7 @@ my $builder = Module::Build->new(
     build_requires      => {
         'Probe::Perl'   => 0,
         'Test::More'    => 0,
+        'Pod::Usage'    => 1.30,
     },
     configure_requires  => { 'Module::Build' => 0.38 },
     create_makefile_pl  => 'small',
@@ -17,7 +18,16 @@ my $builder = Module::Build->new(
     license             => 'perl',
     module_name         => 'Algorithm::CheckDigits',
     requires            => { 
+        # Perl 5.10.1 includes "configure_requires" support
+        #             (see: Module::Build::Compat)
+        'perl'          => '5.10.1',
     	'version'       => 0,
+    },
+    meta_merge => {
+        resources => {
+            repository => 'https://github.com/matwei/perl-Algorithm-CheckDigits',
+            bugtracker => 'https://rt.cpan.org/Public/Dist/Display.html?Name=Algorithm-CheckDigits',
+        }
     },
     script_files        => [
         'bin/checkdigits.pl',
